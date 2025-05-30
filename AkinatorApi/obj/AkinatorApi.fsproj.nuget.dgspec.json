@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\juk_project\\AkinatorApi\\AkinatorApi.fsproj": {}
+    "/home/orion/my_git/FILP/juk_project/AkinatorApi/AkinatorApi.fsproj": {}
   },
   "projects": {
-    "D:\\GitHub\\juk_project\\AkinatorApi\\AkinatorApi.fsproj": {
+    "/home/orion/my_git/FILP/juk_project/AkinatorApi/AkinatorApi.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\juk_project\\AkinatorApi\\AkinatorApi.fsproj",
+        "projectUniqueName": "/home/orion/my_git/FILP/juk_project/AkinatorApi/AkinatorApi.fsproj",
         "projectName": "AkinatorApi",
-        "projectPath": "D:\\GitHub\\juk_project\\AkinatorApi\\AkinatorApi.fsproj",
-        "packagesPath": "C:\\Users\\avisk\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\juk_project\\AkinatorApi\\obj\\",
+        "projectPath": "/home/orion/my_git/FILP/juk_project/AkinatorApi/AkinatorApi.fsproj",
+        "packagesPath": "/home/orion/.nuget/packages/",
+        "outputPath": "/home/orion/my_git/FILP/juk_project/AkinatorApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\avisk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/orion/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\6.0.428\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +36,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[6.0.7, )",
+              "version": "[6.0.1, )",
               "generatePathProperty": true
             },
             "Microsoft.EntityFrameworkCore": {
@@ -78,11 +75,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -91,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.136/RuntimeIdentifierGraph.json"
         }
       }
     }

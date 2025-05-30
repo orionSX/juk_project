@@ -12,6 +12,7 @@ import {
 } from '@mui/material';
 import { Game } from './components/Game';
 import { Analytics } from './components/Analytics';
+import AuthPage from './components/auth/AuthPage';
 
 const theme = createTheme({
     palette: {
@@ -40,6 +41,9 @@ export const App: React.FC = () => {
                         <Button color="inherit" component={Link} to="/analytics">
                             Analytics
                         </Button>
+                        <Button color="inherit" component={Link} to="/auth">
+                            Login
+                        </Button>
                     </Toolbar>
                 </AppBar>
 
@@ -47,6 +51,7 @@ export const App: React.FC = () => {
                     <Routes>
                         <Route path="/" element={<Game />} />
                         <Route path="/analytics" element={<Analytics />} />
+                        <Route path="/auth" element={<AuthPage />} />
                     </Routes>
                 </Container>
             </Router>

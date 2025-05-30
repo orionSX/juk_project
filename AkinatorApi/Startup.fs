@@ -45,6 +45,7 @@ type Startup(configuration: IConfiguration) =
         
         services.AddSingleton<PrologService>() |> ignore
         services.AddScoped<DatabaseService>() |> ignore
+        services.AddSingleton<AuthService>() |> ignore
 
     
     member _.Configure(app: IApplicationBuilder, env: IWebHostEnvironment) =
